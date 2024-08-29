@@ -172,3 +172,4 @@ generated_invoices/
 venv/
 .env
 *.png
+config.py
