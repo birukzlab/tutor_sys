@@ -3,7 +3,7 @@ import os
 
 class PDFInvoice(FPDF):
     def header(self):
-        self.image('/Users/birukzewdie/Desktop/Tutoring/tutor_sys/templates/images/logo.png', 10, 8, 33)  # Add your logo here
+        self.image('templates/logo.png', 10, 8, 33)  # Add your logo here
         self.set_font('Arial', 'B', 12)
         self.cell(80)
         self.cell(30, 10, 'Your Company Name', 0, 1, 'C')
